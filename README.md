@@ -1,6 +1,6 @@
 # vue-todolist
 
-> A todolist app based on Vue.js
+> A todolist app based on Vue2 + Webpack
 
 ## Build Setup
 
@@ -15,4 +15,8 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Function
+
+- [x] Double-click to edit
+- [x] Local storage
+- [x] Filters by completed or not
