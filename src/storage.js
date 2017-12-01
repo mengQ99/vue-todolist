@@ -5,7 +5,6 @@ export default {
   	list.forEach((elem, index) => {
   		elem.id = index
   	})
-  	this.len = list.length
   	return list
   },
   set(list){

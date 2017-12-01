@@ -7,7 +7,7 @@
         <input type="checkbox" id="check" v-model="allTodo">Check All
       </label>
     </div>
-    <ul class="list">
+    <ul class="list" v-if="list.length">
       <li v-for="(todo, index) in filterList" 
         :key="todo.id" 
         :class="{editing: todo == editingTodo}"
@@ -26,6 +26,7 @@
         >
       </li>
     </ul>
+    <p v-else>What do you want to do next?</p>
     <ul class="btns">
       <li><a href="/#/all" >All</a></li>
       <li><a href="/#/active">Active</a></li>
