@@ -1,4 +1,4 @@
-# todo-app
+# vue-todolist
 
 > A todolist app based on Vue.js
 
