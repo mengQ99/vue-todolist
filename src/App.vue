@@ -182,8 +182,7 @@ li:hover .del {
   border-radius: 3px;
   box-shadow: 0 0 3px 1px #eee;
 }
-.list,
-.btns {
+.list {
   text-align: left;
 }
 .text {
